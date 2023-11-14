@@ -11,7 +11,7 @@ const setWeatherDetails = (data) => {
   windSpeed.innerHTML = data.wind.speed + "km/h";
   switch (data.weather[0].main) {
     case "Clouds":
-      weatherIcon.src = "Images/clouds.png";
+      weatherIcon.src = "Images/Clouds.png";
       break;
     case "Clear":
       weatherIcon.src = "Images/sun.png";
